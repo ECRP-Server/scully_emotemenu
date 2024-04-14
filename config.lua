@@ -10,7 +10,7 @@ Config = {
     -- You can disable the emote position selector on emotes with the Placement flag here.
     EnableEmotePlacement = true,
     -- You can disable the emote binds option here.
-    EnableEmoteBinds = true,
+    EnableEmoteBinds = false,
     -- Block players from using weapons while doing an emote.
     EnableWeaponBlock = false,
     -- Block players from aiming and shooting while doing an emote.
@@ -42,7 +42,7 @@ Config = {
     -- You can change the help alert position here
     HelpAlertPosition = 'right-center', -- (right-center, left-center, top-center)
     -- Set this to '' to disable the key.
-    RagdollKeybind = 'u', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    RagdollKeybind = '', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
     PtfxKeybind = 'g', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable automated ptfx on emotes with the Auto flag here. 
@@ -56,7 +56,7 @@ Config = {
     -- You can enable the consumable emotes here.
     EnableConsumableEmotes = false,
     -- You can enable the synchronized emotes here.
-    EnableSynchronizedEmotes = false,
+    EnableSynchronizedEmotes = true,
     -- You can enable the animal emotes here.
     EnableAnimalEmotes = false,
     -- You can enable radial menu usage here.
